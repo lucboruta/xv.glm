@@ -1,0 +1,11 @@
+Package: xv.glm
+Type: Package
+Title: Cross-validation for Generalized Linear Models
+Version: 1.1
+Date: 2011-12-01
+Author: Luc Boruta
+Maintainer: Luc Boruta <luc.boruta@inria.fr>
+Description: This package provides a single function that calculates the estimated K-fold cross-validation prediction error for generalized linear models (e.g. objects of class "glm" or "multinom").
+License: WTFPL
+Depends: R (>= 2.9.0), stats
+Suggests: boot, nnet
